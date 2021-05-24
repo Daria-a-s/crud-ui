@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf42b6396d9213ea13502840313f96ee",
+    "revision": "8598f8d0be882071ae28c875e8f66284",
     "url": "/crud-ui/index.html"
   },
   {
-    "revision": "46b014f289671b449e95",
-    "url": "/crud-ui/static/css/main.2d719117.chunk.css"
+    "revision": "85d5a32bcd844d1ea626",
+    "url": "/crud-ui/static/css/main.cd862fe1.chunk.css"
   },
   {
     "revision": "e5e47a4f2057fedc28d3",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crud-ui/static/js/2.7b60ed6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46b014f289671b449e95",
+    "revision": "85d5a32bcd844d1ea626",
     "url": "/crud-ui/static/js/main.b7298d7e.chunk.js"
   },
   {
     "revision": "58d805d3210bea99ca34",
     "url": "/crud-ui/static/js/runtime-main.6729c521.js"
+  },
+  {
+    "revision": "4e4cc0395fb8fe40fd3b92eddc2b4c11",
+    "url": "/crud-ui/static/media/cool-background.4e4cc039.svg"
   }
 ]);
