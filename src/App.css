@@ -1,0 +1,136 @@
+body {
+  background-image: url(/cool-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+}
+
+table {
+  margin: 100px auto 0;
+  border-collapse: collapse;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-spacing: 2px;
+}
+
+caption {
+  color: #039;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+tbody {
+  margin-top: 100px;
+}
+
+tr {
+  display: table-row;
+}
+
+td, th {
+  display: table-cell;
+  padding: 10px 20px;
+}
+
+th {
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+}
+
+td {
+  background: rgba(220, 216, 255, 0.7);
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+  transition: .3s linear;
+}
+
+tr:hover td {
+  background: #ccddff;
+}
+
+.addRow {
+  max-width: 400px;
+  margin: 20px auto 0;
+  border-left: 4px solid #aabcfe;
+  border-right: 4px solid #aabcfe;
+}
+
+.addRow form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+}
+
+.addBtn {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+  font-weight: 700;
+  background: #c9d5ff;
+  border: 4px solid #aabcfe;
+  font-size: 16px;
+  margin: 10px auto 0;
+  width: 150px;
+  padding: 7px;
+  color: #039;
+  transition: .3s linear;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+  background: #aabcfe;
+}
+
+label {
+  display: grid;
+  margin: 5px auto;
+  color: #039;
+  font-weight: 700;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+label input {
+  margin-left: 10px;
+  border: 4px solid #aabcfe;
+}
+
+label input:focus {
+  outline: 0;
+}
+.deleteBtn {
+  max-width: 50px;
+}
+
+.tableCell {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: #039;
+}
+
+.delete, .edit {
+  border: 4px solid #aabcfe;
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background:transparent;
+  outline: none;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.delete:hover, .edit:hover {
+  background: rgba(125, 159, 182, 0.2);
+}
